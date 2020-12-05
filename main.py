@@ -15,7 +15,7 @@ class Item(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Hello! New Auto Deploy": "World"}
 
 
 @app.get("/items/{item_id}")

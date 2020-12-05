@@ -115,3 +115,22 @@
 - The REST API documentation is as follows:
   - [Swagger UI style](https://gcp-fastapi.ey.r.appspot.com/docs)
   - [Redoc style](https://gcp-fastapi.ey.r.appspot.com/redoc)
+
+## Automating App Engine Deployment
+[Reference](https://cloud.google.com/source-repositories/docs/quickstart-triggering-builds-with-source-repositories).
+
+- Create `cloudbuild.yaml` file
+
+    ```yaml
+    steps:
+    - name: "gcr.io/cloud-builders/gcloud"
+    args: ["app", "deploy"]
+    timeout: "1600s"
+    ```
+
+
+Follow the steps from ref.
+- Enable the APIs.
+- Grant App Engine access to the Cloud Build service account.
+  - Enable App Engine
+- Enable the Build Trigger
