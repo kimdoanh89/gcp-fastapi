@@ -113,5 +113,5 @@
 
 - The app is deployed [here](https://gcp-fastapi.ey.r.appspot.com).
 - The REST API documentation is as follows:
-  - Swagger UI style: (https://gcp-fastapi.ey.r.appspot.com/docs)
-  - Redoc style: (https://gcp-fastapi.ey.r.appspot.com/redoc)
+  - [Swagger UI style](https://gcp-fastapi.ey.r.appspot.com/docs)
+  - [Redoc style](https://gcp-fastapi.ey.r.appspot.com/redoc)
